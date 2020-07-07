@@ -1,0 +1,15 @@
+AliyunData:
+  # 阿里云的AccessKey_ID , Access_Key_Secret , region_id
+  # 获取方法，参考文档: https://help.aliyun.com/knowledge_detail/38738.html
+  AccessKey_ID: 'AccessKey_ID'
+  Access_Key_Secret: 'Access_Key_Secret'
+  region_id: "cn-hangzhou"
+
+# DNS解析信息
+DnsData:
+  # 需要修改的域名
+  DomainName: 'DomainName.com'
+  # 解析的主机
+  RR: 'RR'
+  # 解析的记录
+  DomainType: 'A'
